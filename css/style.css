@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 18px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 18px;
+}
+
+.logo p{
+    padding: 0px 0px 5px;
+}
+
+img{
+    width: 103px;
+    height: 31px;
+}
+
+.registro{
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 14px 18px;
+}
+
+.formulario h1{
+    font-size: 28px;
+    font-weight: normal;
+    padding: 0px 0px 4px;
+    margin: 0px 0px 10px;
+}
+
+.formulario div{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario div label{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0px 0px 2px 2px;
+}
+
+.inputs{
+    display: flex;
+    gap: 15px;
+}
+
+.inputs .check{
+    display: flex;
+    flex-direction: row;
+}
+
+.inputs .check input[type = checkbox]{
+    width: auto;
+    height: auto;
+}
+
+.inputs .check label{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+input[type = text], input[type = password]{
+    width: 296px;
+    height: 21px;
+    padding: 3px 7px;
+    border: 1px solid #949494;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+input[type = text]:focus, input[type = password]:focus{
+    box-shadow: 0px 0px 0px 3px #C8F3FA;
+    border: 1px solid #007185 !important;
+    background-color: #F7FEFF;
+    outline: none;
+}
+
+input[type = submit]{
+    width: 312px;
+    height: 29px;
+    padding: 1px 6px;
+    background-color: #FFD814;
+    border: none;
+    border-radius: 8px;
+}
+
+small{
+    font-size: 12px;
+}
+
+.notAvailable{
+    cursor: not-allowed;
+}
+
+.success{
+    border: 1px solid green !important;
+}
+
+.error{
+    border: 1px solid red !important;
+}

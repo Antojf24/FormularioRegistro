@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/script.js" defer></script>
+        <title>Registro</title>
+    </head>
+    <body>
+        <div class="logo">
+            <img src="./svg/Amazon_logo.svg" alt="Amazon_logo">
+            <p>.es</p>
+        </div>
+        <div class="registro">
+            <form action="#" method="post" class="formulario" id="form">
+                <h1>Crear cuenta</h1>
+                <div class="inputs">
+                    <div>
+                        <label for="user">Nombre</label>
+                        <input type="text" id="user" placeholder="Ususario">
+                        <small></small>
+                    </div>
+                    <div>
+                        <label for="tlf">Número de teléfono</label>
+                        <input type="text" id="tlf">
+                        <small></small>
+                    </div>
+                    <div>
+                        <label for="contr">Contraseña</label>
+                        <input type="password" id="contr" placeholder="Al menos 6 caracteres">
+                        <small></small>
+                    </div>
+                    <div>
+                        <label for="rep-contr">Confirma tu contraseña</label>
+                        <input type="password" id="rep-contr">
+                        <small></small>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" id="check">
+                        <label for="checkbox">Estás de acuerdo con las condiciones de uso</label>
+                    </div>
+                    <div>
+                        <input type="submit" name="enviar" id="enviar" class="notAvailable" value="Enviar">
+                        <small></small>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
