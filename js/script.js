@@ -23,9 +23,9 @@ check.addEventListener("click", isChecked);
 
 function checkFullForm(){
     if(validUser && validTlf && validContr && validRepContr && checked){
-        enviar.classList.remove("notAvailable");
+        enviar.disabled = false;
     }else{
-        enviar.classList = "notAvailable";
+        enviar.disabled = true;
     }
 }
 

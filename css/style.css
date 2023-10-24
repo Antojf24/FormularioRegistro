@@ -104,10 +104,6 @@ small{
     font-size: 12px;
 }
 
-.notAvailable{
-    cursor: not-allowed;
-}
-
 .success{
     border: 1px solid green !important;
 }
